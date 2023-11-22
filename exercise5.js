@@ -1,4 +1,4 @@
-class operators {
+class Operators {
 	constructor(a, b) {
 		this.a = a;
 		this.b = b;
@@ -6,7 +6,7 @@ class operators {
 	sum() {
 		return this.a + this.b;
 	}
-	receive() {
+	multiple() {
 		return this.a * this.b;
 	}
 	subtract() {
@@ -20,7 +20,7 @@ class operators {
 const add = new operators(6, 3);
 
 console.log(add);
-console.log(add.receive());
+console.log(add.multiple());
 console.log(add.divide());
 console.log(add.sum());
 console.log(add.subtract());
