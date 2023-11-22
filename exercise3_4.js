@@ -42,3 +42,4 @@ console.log(objStudent2);
 const filterUser = objStudent2.filter((a) => a.age <= 30 && a.age >= 18);
 console.log(filterUser);
 console.log(typeof objStudent2[4]["age"]);
+console.table(objStudent2);
