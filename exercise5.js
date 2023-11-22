@@ -17,7 +17,7 @@ class Operators {
 	}
 }
 
-const add = new operators(6, 3);
+const add = new Operators(6, 3);
 
 console.log(add);
 console.log(add.multiple());
